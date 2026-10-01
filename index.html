@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roofing Contractor in Lombard, IL | Davis Roofing Inc</title>
+<meta name="description" content="Davis Roofing Inc — Lombard, IL's local residential roofing contractor for 60 years. Roof repair & replacement, 20-year installation warranty. Call (630) 376-6493.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-900:#0a1f33; --navy-800:#0e2c49; --navy-700:#144068; --blue:#2f7fc4;
+  --accent:#e8572a; --accent-dark:#c7441f;
+  --ink:#1a2230; --muted:#5a6779; --bg:#f6f8fb; --white:#ffffff;
+  --radius:14px; --shadow:0 12px 32px rgba(10,31,51,.13);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.display{font-family:'Oswald',sans-serif;letter-spacing:.5px}
+a{color:inherit}
+.container{width:min(1140px,92%);margin:0 auto}
+
+/* Nav */
+.nav{position:sticky;top:0;z-index:100;background:rgba(10,31,51,.97);backdrop-filter:blur(6px);box-shadow:0 2px 12px rgba(0,0,0,.28)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:12px}
+.brand{color:#fff;text-decoration:none}
+.brand .name{font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(1.1rem,2.6vw,1.45rem);line-height:1.15;display:block}
+.brand .tag{font-size:.72rem;letter-spacing:2px;color:#9fc3e8;text-transform:uppercase;font-weight:600}
+.nav-cta{display:flex;align-items:center;gap:10px;background:var(--accent);color:#fff;font-weight:800;text-decoration:none;padding:11px 20px;border-radius:999px;font-size:.95rem;white-space:nowrap;box-shadow:0 4px 14px rgba(232,87,42,.45);transition:transform .15s}
+.nav-cta:hover{transform:translateY(-2px)}
+.nav-cta svg{width:18px;height:18px}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--navy-900) 0%,var(--navy-800) 50%,var(--navy-700) 100%);color:#fff;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(circle at 82% 18%,rgba(47,127,196,.35) 0,transparent 38%),
+  radial-gradient(circle at 12% 82%,rgba(232,87,42,.14) 0,transparent 35%);}
+.hero::after{content:"";position:absolute;bottom:-1px;left:0;right:0;height:70px;background:var(--bg);clip-path:polygon(0 100%,100% 100%,100% 20%,0 100%);}
+.hero-inner{position:relative;z-index:1;padding:88px 0 130px;max-width:730px}
+.eyebrow{display:inline-block;background:rgba(47,127,196,.22);border:1px solid rgba(159,195,232,.5);color:#cfe3f7;font-size:.78rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:7px 16px;border-radius:999px;margin-bottom:20px}
+.hero h1{font-size:clamp(2.1rem,6vw,3.6rem);line-height:1.12;margin-bottom:18px;font-weight:700}
+.hero h1 .accent{color:#ffb08a}
+.hero p.lead{font-size:clamp(1.02rem,2.4vw,1.2rem);color:#cdd9e8;max-width:620px;margin-bottom:30px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;font-weight:800;text-decoration:none;padding:15px 30px;border-radius:999px;font-size:1.02rem;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn svg{width:20px;height:20px}
+.btn-accent{background:var(--accent);color:#fff;box-shadow:0 8px 24px rgba(232,87,42,.4)}
+.btn-outline{border:2px solid rgba(255,255,255,.55);color:#fff}
+.btn-outline:hover{background:rgba(255,255,255,.12)}
+.hero-note{margin-top:18px;font-size:.88rem;color:#9fb3cc}
+
+/* Trust strip */
+.trust{background:#fff;border-bottom:1px solid #e3eaf2}
+.trust-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:26px 0;text-align:center}
+.trust-item{padding:6px 10px}
+.trust-item .big{font-family:'Oswald',sans-serif;font-size:clamp(1.15rem,3vw,1.6rem);font-weight:700;color:var(--navy-800)}
+.trust-item .small{font-size:.8rem;color:var(--muted);font-weight:500}
+
+/* Sections */
+section.block{padding:74px 0}
+.sec-head{text-align:center;max-width:660px;margin:0 auto 44px}
+.sec-head .kicker{color:var(--blue);font-weight:800;letter-spacing:2.5px;text-transform:uppercase;font-size:.78rem;margin-bottom:10px}
+.sec-head h2{font-size:clamp(1.6rem,4.5vw,2.4rem);line-height:1.2;margin-bottom:12px;color:var(--navy-900)}
+.sec-head p{color:var(--muted)}
+
+/* Services */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border-radius:var(--radius);padding:30px 26px;box-shadow:var(--shadow);border-top:5px solid var(--blue);transition:transform .18s}
+.card:hover{transform:translateY(-6px)}
+.card .icon{width:54px;height:54px;border-radius:14px;background:linear-gradient(135deg,var(--navy-800),var(--blue));display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.card .icon svg{width:28px;height:28px;stroke:#fff}
+.card h3{font-size:1.22rem;margin-bottom:10px;color:var(--navy-900)}
+.card p{color:var(--muted);font-size:.94rem}
+.card .svc-note{margin-top:12px;font-size:.82rem;color:var(--blue);font-weight:600}
+
+/* About */
+.about{background:linear-gradient(180deg,#fff,#eef3f9)}
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.about-copy h2{font-size:clamp(1.6rem,4.5vw,2.3rem);color:var(--navy-900);margin-bottom:16px;line-height:1.2}
+.about-copy p{color:var(--muted);margin-bottom:14px}
+.check-list{list-style:none;margin:20px 0}
+.check-list li{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px;font-weight:600;color:var(--navy-900)}
+.check-list .tick{flex:0 0 26px;height:26px;border-radius:50%;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:800}
+.about-badge{background:var(--navy-900);color:#fff;border-radius:var(--radius);padding:38px 32px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.about-badge::before{content:"";position:absolute;top:-40px;right:-40px;width:160px;height:160px;border-radius:50%;background:rgba(47,127,196,.25)}
+.about-badge .lic{font-family:'Oswald',sans-serif;font-size:1.5rem;color:#ffb08a;margin-bottom:6px}
+.about-badge p{color:#cdd9e8;font-size:.94rem}
+.about-badge .addr{margin-top:16px;font-size:.9rem;color:#fff}
+
+/* Steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.step{background:#fff;border-radius:var(--radius);padding:34px 28px;box-shadow:var(--shadow);position:relative;border-bottom:5px solid var(--accent)}
+.step .num{font-family:'Oswald',sans-serif;font-size:3.2rem;font-weight:700;color:var(--accent);line-height:1}
+.step h3{margin:10px 0 8px;color:var(--navy-900);font-size:1.25rem}
+.step p{color:var(--muted);font-size:.94rem}
+
+/* Certifications */
+.certs{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:36px}
+.cert{background:var(--navy-800);color:#fff;font-size:.82rem;font-weight:700;padding:10px 20px;border-radius:999px;letter-spacing:.5px}
+
+/* Contact */
+.contact{background:linear-gradient(135deg,var(--navy-900),var(--navy-700));color:#fff;text-align:center;position:relative;overflow:hidden}
+.contact::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,rgba(47,127,196,.3) 0,transparent 45%)}
+.contact-inner{position:relative;z-index:1}
+.contact h2{font-size:clamp(1.8rem,5vw,2.7rem);margin-bottom:12px}
+.contact h2 .accent{color:#ffb08a}
+.contact p.sub{color:#cdd9e8;max-width:580px;margin:0 auto 30px}
+.contact-cards{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:30px}
+.contact-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:var(--radius);padding:22px 34px;text-decoration:none;transition:background .15s}
+.contact-card:hover{background:rgba(255,255,255,.2)}
+.contact-card .lbl{font-size:.75rem;letter-spacing:2px;text-transform:uppercase;color:#ffb08a;font-weight:700;margin-bottom:6px}
+.contact-card .val{font-size:1.25rem;font-weight:800}
+.hours{font-size:.88rem;color:#9fb3cc}
+
+/* Footer */
+footer{background:#071522;color:#93a5b9;padding:30px 0;text-align:center;font-size:.88rem}
+footer .fname{color:#fff;font-weight:700;font-family:'Oswald',sans-serif;letter-spacing:.5px}
+footer .fline{margin-top:6px;font-size:.82rem}
+
+/* Reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* Responsive */
+@media(max-width:900px){
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .trust-inner{grid-template-columns:repeat(2,1fr);gap:18px}
+  .about-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .services-grid{grid-template-columns:1fr}
+  section.block{padding:56px 0}
+  .nav-cta{padding:10px 14px;font-size:.85rem}
+  .hero-inner{padding:64px 0 110px}
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top">
+      <span class="name">Davis Roofing Inc</span>
+      <span class="tag">Lombard, Illinois</span>
+    </a>
+    <a class="nav-cta" href="tel:+16303766493" aria-label="Call Davis Roofing">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      (630) 376-6493
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <span class="eyebrow">Local Residential Roofing &bull; Lombard, IL</span>
+      <h1>60 Years of Keeping <span class="accent">Chicagoland Homes</span> Dry</h1>
+      <p class="lead">Davis Roofing Inc. is the roof repair expert homeowners across Glen Ellyn, Downers Grove, Naperville &amp; Oak Brook trust — backed by a 20-year installation warranty and manufacturer certifications.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-accent" href="tel:+16303766493">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call (630) 376-6493
+        </a>
+        <a class="btn btn-outline" href="#services">Our Services</a>
+      </div>
+      <p class="hero-note">Free estimates &bull; On-site Quality Control Manager on every project</p>
+    </div>
+  </section>
+
+  <div class="trust">
+    <div class="container trust-inner">
+      <div class="trust-item"><div class="big">60 Years</div><div class="small">Proven track record of customer service</div></div>
+      <div class="trust-item"><div class="big">20-Year Warranty</div><div class="small">On full roof replacements</div></div>
+      <div class="trust-item"><div class="big">IL License #104.000258</div><div class="small">State-licensed roofing contractor</div></div>
+      <div class="trust-item"><div class="big">Quality Control</div><div class="small">On-site manager on every project</div></div>
+    </div>
+  </div>
+
+  <section class="block" id="services">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div class="kicker">What We Do</div>
+        <h2>Residential Roofing, Done to a Higher Standard</h2>
+        <p>Roof repair, replacement, and siding — installed by manufacturer-certified crews and inspected by your own on-site quality control manager.</p>
+      </div>
+      <div class="services-grid">
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3 3.7-3.7z"/></svg></div>
+          <h3>Roof Repair</h3>
+          <p>The local roof repair experts — fast, precise fixes for leaks, storm damage, and worn shingles across Chicagoland.</p>
+          <div class="svc-note">Leaks • Storm damage • Shingle repair</div>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 9.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5"/><path d="M9 21v-6h6v6"/></svg></div>
+          <h3>Full Roof Replacement</h3>
+          <p>Complete tear-off and replacement with premium materials — covered by our 20-year installation warranty.</p>
+          <div class="svc-note">20-year installation warranty</div>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 4v5"/></svg></div>
+          <h3>Siding Installation</h3>
+          <p>Durable, beautiful siding that updates your curb appeal — including LP SmartSide engineered wood siding.</p>
+          <div class="svc-note">LP BuildSmart Remodeler</div>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <h3>Free Estimates</h3>
+          <p>Updating your curb appeal is as easy as 1-2-3: book your free estimate, pick colors, and schedule your project.</p>
+          <div class="svc-note">No-obligation consultations</div>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <h3>Certified Installations</h3>
+          <p>Manufacturer-certified crews for Owens Corning, CertainTeed, and Atlas roofing systems — installed to spec.</p>
+          <div class="svc-note">Owens Corning Preferred • CertainTeed 5-Star • Atlas Pro</div>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>On-Site Quality Control</h3>
+          <p>A dedicated Quality Control Manager runs your project on-site — so workmanship and communication stay excellent.</p>
+          <div class="svc-note">Manager present on every job</div>
+        </article>
+      </div>
+      <div class="certs reveal">
+        <span class="cert">Owens Corning Preferred</span>
+        <span class="cert">CertainTeed 5-Star Contractor</span>
+        <span class="cert">Atlas Pro</span>
+        <span class="cert">LP BuildSmart Remodeler</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="block about">
+    <div class="container about-grid">
+      <div class="about-copy reveal">
+        <div class="kicker" style="color:var(--blue);font-weight:800;letter-spacing:2.5px;text-transform:uppercase;font-size:.78rem;margin-bottom:10px">About Us</div>
+        <h2>Why Homeowners Trust Davis Roofing</h2>
+        <p>We take pride in our workmanship, communication, and long-lasting results — and that commitment keeps homeowners returning to us project after project.</p>
+        <p>Serving <strong>Glen Ellyn, Downers Grove, Naperville, Oak Brook, Lombard</strong> and surrounding Chicagoland communities for 60 years.</p>
+        <ul class="check-list">
+          <li><span class="tick">✓</span> 60-year proven track record of excellent customer service</li>
+          <li><span class="tick">✓</span> 20-year installation warranty on full replacements</li>
+          <li><span class="tick">✓</span> On-site Quality Control Manager running your project</li>
+          <li><span class="tick">✓</span> Manufacturer-certified roofing systems</li>
+        </ul>
+      </div>
+      <div class="about-badge reveal">
+        <div class="lic">IL State License #104.000258</div>
+        <p>Licensed residential roofing contractor with manufacturer certifications from Owens Corning, CertainTeed, Atlas, and LP SmartSide.</p>
+        <p class="addr">2 E 22nd St, Suite 300B<br>Lombard, IL 60148</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div class="kicker">Getting Started</div>
+        <h2>How It Works</h2>
+        <p>Updating your curb appeal is as easy as 1, 2, 3.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="num">01</div>
+          <h3>Book Your Free Estimate</h3>
+          <p>Call or email us to schedule a free, no-obligation estimate at your home — at a time that works for you.</p>
+        </div>
+        <div class="step reveal">
+          <div class="num">02</div>
+          <h3>Pick Colors &amp; Schedule</h3>
+          <p>Choose your materials and colors with our guidance, then lock in a project date that fits your calendar.</p>
+        </div>
+        <div class="step reveal">
+          <div class="num">03</div>
+          <h3>We Handle the Rest</h3>
+          <p>Your on-site Quality Control Manager runs the project while certified crews deliver a roof built to last.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block contact">
+    <div class="container contact-inner">
+      <h2>Ready for a Better Roof? <span class="accent">Request Your Free Estimate.</span></h2>
+      <p class="sub">Call today and see why homeowners across Chicagoland have trusted Davis Roofing for 60 years.</p>
+      <div class="contact-cards">
+        <a class="contact-card" href="tel:+16303766493">
+          <div class="lbl">Call Us</div>
+          <div class="val">(630) 376-6493</div>
+        </a>
+        <a class="contact-card" href="mailto:contact@davisroofing.com">
+          <div class="lbl">Email Us</div>
+          <div class="val">contact@davisroofing.com</div>
+        </a>
+      </div>
+      <p class="hours">Hours: Mon – Fri, by appointment &nbsp;•&nbsp; Sat – Sun: Closed</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="fname">DAVIS ROOFING INC</div>
+    <div class="fline">2 E 22nd St, Suite 300B, Lombard, IL 60148 &nbsp;•&nbsp; IL State License #104.000258</div>
+    <div class="fline">&copy; 2026 Davis Roofing Inc. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+    },{threshold:.12});
+    els.forEach(function(el){ io.observe(el); });
+  } else { els.forEach(function(el){ el.classList.add('in'); }); }
+})();
+</script>
+</body>
+</html>
